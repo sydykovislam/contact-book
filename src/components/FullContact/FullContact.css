@@ -1,0 +1,28 @@
+.FullContact {
+  display: none;
+  position: fixed;
+  top: 60px;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  height: 70vh;
+  width: 80%;
+  z-index: 100;
+  margin: 0px auto;
+  background-color: white;
+  border-radius: 4px;
+  padding: 20px;
+}
+.flConOpened {
+  display: flex !important;
+  flex-direction: column;
+}
+.backdropFullcon {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  background-color: rgba(0, 0, 0, 0.616);
+  z-index: 99;
+}

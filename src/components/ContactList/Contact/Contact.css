@@ -1,0 +1,13 @@
+.mainContactsInfo {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  width: 100%;
+}
+.btn-group button {
+  align-self: center;
+}
+.fullContact {
+  display: none;
+  position: fixed;
+  top: 60px;
+}
