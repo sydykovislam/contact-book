@@ -16,7 +16,7 @@
     "test": "jest",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "master -d build"
   },
   "homepage": "https://sydykovislam.github.io/contact-book/",
   "eslintConfig": {
