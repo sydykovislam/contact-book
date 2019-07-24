@@ -16,7 +16,7 @@
     "test": "jest",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "master -d build"
+    "deploy": "gh-pages -d build"
   },
   "homepage": "https://sydykovislam.github.io/contact-book/",
   "eslintConfig": {
@@ -39,6 +39,7 @@
   "devDependencies": {
     "@babel/preset-react": "^7.0.0",
     "babel-jest": "^24.8.0",
+    "enzyme": "^3.10.0",
     "enzyme-adapter-react-16": "^1.14.0"
   },
   "keywords": [],

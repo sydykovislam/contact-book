@@ -15,17 +15,22 @@ function EditTool(props) {
     console.log(editedContact.phone);
   };
   let editCon = () => {
-    if (editedContact.name != "" && editedContact.phone != "") {
-      props.editContact(editedContact);
-    } else {
-      alert("Not enough data or nothing to change.");
-    }
+    // if (editedContact.name != "" || editedContact.phone != "") {
+    props.editContact(editedContact);
+    // } else {
+    //   alert("Not enough data or nothing to change.");
+    // }
   };
   useEffect(() => {
     let edits = document.querySelector(`.edittool-${props.index}`);
     console.log(edits);
     edits.children[0].value = `${props.name}`;
     edits.children[1].value = `${props.phone}`;
+    editedContact = {
+      name: edits.children[0].value,
+      phone: edits.children[1].value,
+      index: props.index
+    };
   });
 
   return (

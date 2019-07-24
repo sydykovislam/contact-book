@@ -22,6 +22,10 @@ function AddContact(props) {
       inputs.forEach(input => {
         input.value = "";
       });
+      newContact = {
+        name: "",
+        phone: ""
+      };
     } else {
       alert("Not enough data!");
     }
